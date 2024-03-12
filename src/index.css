@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.no-scroll {
+  overflow: hidden;
+  padding-right: 17px;
+}
+
+body {
+  overflow-y: scroll; /* Always show vertical scrollbar */
+}
